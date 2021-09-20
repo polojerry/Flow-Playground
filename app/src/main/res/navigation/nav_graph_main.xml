@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_main.xml"
-    app:startDestination="@id/friendsFragment">
+    app:startDestination="@id/moviesFragment">
     <fragment
         android:id="@+id/gamesFragment"
         android:name="com.samples.flow.presentation.ui.games.GamesFragment"
@@ -14,4 +14,16 @@
         android:name="com.samples.flow.presentation.ui.friends.FriendsFragment"
         android:label="FriendsFragment"
         tools:layout="@layout/friends_fragment"/>
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.samples.flow.presentation.ui.movies.MoviesFragment"
+        android:label="MoviesFragment"
+        tools:layout="@layout/movies_fragment">
+        <action
+            android:id="@+id/action_moviesFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+        <action
+            android:id="@+id/action_moviesFragment_to_friendsFragment"
+            app:destination="@id/friendsFragment" />
+    </fragment>
 </navigation>
