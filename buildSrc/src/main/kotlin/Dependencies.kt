@@ -1,5 +1,6 @@
 object Versions {
     //Version codes for all the libraries
+
     //Kotlin
     const val kotlin = "1.5.30"
     const val coreKtx = "1.6.0"
@@ -13,48 +14,44 @@ object Versions {
 
     //AndroidX
     const val navigation = "2.3.5"
-    const val lifecycle = "2.3.1"
+    const val lifecycle = "2.4.0-alpha03"
 
     //Coroutines
     const val coroutines = "1.3.9"
 
     //Hilt
-    const val hilt = "2.35.1"
-    const val hiltViewModel = "1.0.0-alpha02"
+    const val hilt = "2.38.1"
 
     //Timber
     const val timber = "5.0.1"
 
     //Firebase
-    const val firebaseBom = "26.7.0"
-
-    //Glide
-    const val glide = "4.11.0"
+    const val firebaseBom = "28.4.0"
 
     //Room
-    const val room = "2.2.6"
+    const val room = "2.3.0"
+
+    //Coil
+    const val coil = "1.3.2"
 
     //Retrofit && OkHttp
     const val retrofit = "2.9.0"
     const val loggingInterceptor = "4.9.0"
-    const val okHttp = "4.9.0"
 
     //Version codes for all the test libraries
     const val junit4 = "4.13.1"
     const val testRunner = "1.3.1-alpha03"
     const val espresso = "3.4.0-alpha03"
-    const val annotation = "1.2.0-beta01"
     const val extJUnit = "1.1.2"
-    const val mockito = "1.10.19"
     const val coroutinesTest = "1.4.2"
     const val truth = "1.1.3"
-    const val roboelectric = "4.5.1"
     const val testCore = "1.0.0"
     const val mockWebServer = "4.9.0"
+    const val roboelectric = "4.5-beta-1"
 
     // Gradle Plugins
     const val gradleBuild = "7.0.2"
-    const val googlePlayServices = "4.3.4"
+    const val googlePlayServices = "4.3.10"
     const val firebaseCrashlyticsBuild = "2.3.0"
 }
 
@@ -78,34 +75,25 @@ object Libraries {
 
     //UI
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
-    const val constraintLayout =
-        "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val materialComponents = "com.google.android.material:material:${Versions.material}"
     const val legacySupport = "androidx.legacy:legacy-support-v4:${Versions.legacy}"
     const val fragment = "androidx.fragment:fragment-ktx:${Versions.fragment}"
 
     //Navigation Component
-    const val navigationFragmentKtx =
-        "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
-    const val navigationFeatureModule =
-        "androidx.navigation:navigation-dynamic-features-fragment:${Versions.navigation}"
 
     //Coroutines
-    const val coroutinesCore =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
-    const val coroutinesAndroid =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
-    const val coroutinesPlayServices =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:${Versions.coroutines}"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+    const val coroutinesPlayServices = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:${Versions.coroutines}"
 
     //ViewModel, LiveData
     const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
     const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
-    const val saveStateHandle =
-        "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Versions.lifecycle}"
-    const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
     const val kaptLifecycle = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
+    const val lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
 
     //Hilt
     const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
@@ -118,11 +106,6 @@ object Libraries {
     const val firebaseBom = "com.google.firebase:firebase-bom:${Versions.firebaseBom}"
     const val firebaseAnalyticsKtx = "com.google.firebase:firebase-analytics-ktx"
     const val firebaseFirestoreKtx = "com.google.firebase:firebase-firestore-ktx"
-    const val firebaseStorageKtx = "com.google.firebase:firebase-firestore-ktx"
-
-    //Glide
-    const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
-    const val kaptGlide = "com.github.bumptech.glide:compiler:${Versions.glide}"
 
     //Room
     const val roomRuntime = "androidx.room:room-runtime:${Versions.room}"
@@ -132,11 +115,10 @@ object Libraries {
     //Retrofit
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     const val moshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit}"
-    const val loggingInterceptor =
-        "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"
+    const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"
 
-    //OKHttp
-    const val okHttp = "com.squareup.okhttp3:okhttp:${Versions.okHttp}"
+    //Coil
+    const val coil = "io.coil-kt:coil:${Versions.coil}"
 }
 
 object TestLibraries {
@@ -146,15 +128,12 @@ object TestLibraries {
     const val extJunit = "androidx.test.ext:junit:${Versions.extJUnit}"
     const val testRunner = "androidx.test:runner:${Versions.testRunner}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
-    const val annotation = "androidx.annotation:annotation:${Versions.annotation}"
     const val navigation = "androidx.navigation:navigation-testing:${Versions.navigation}"
-    const val mockito = "org.mockito:mockito-core:${Versions.mockito}"
-    const val coroutines =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutinesTest}"
+    const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutinesTest}"
     const val truth = "com.google.truth:truth:${Versions.truth}"
-    const val roboelectric = "org.robolectric:robolectric:${Versions.roboelectric}"
     const val room = "androidx.room:room-testing:${Versions.room}"
     const val mockWebServer = "com.squareup.okhttp3:mockwebserver:${Versions.mockWebServer}"
+    const val roboelectric = "org.robolectric:robolectric:${Versions.roboelectric}"
 }
 
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "213393506475",
+    "project_id": "flow-playground",
+    "storage_bucket": "flow-playground.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213393506475:android:68c006375122c4d69e77ee",
+        "android_client_info": {
+          "package_name": "com.samples.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213393506475-to4ee4emmf61olr8s8p0pns4duuc9mda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samples.flow",
+            "certificate_hash": "7eaf9a6c093cb14d2838b5566eec523b83625ffd"
+          }
+        },
+        {
+          "client_id": "213393506475-sv5jmal6qkd3egjf7voaeijh44n9nds9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRQkY925rRE0FluN6JRY1-sVdX-lXhvFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213393506475-sv5jmal6qkd3egjf7voaeijh44n9nds9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
