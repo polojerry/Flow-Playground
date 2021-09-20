@@ -40,11 +40,15 @@ In this project, i have only implemented the ```network data source``` where dat
 This layer contains the implementation of the three inner layers. This layers contains  User Interface, mainly Android Stuff like Activities, Fragments, ViewModel, 
 
 #Flow Use Case
-## Callback Based APIs: Firebase Firestore
 
 ## Room Datbase
+<img src= "demo/room_flow.gif" width = "300" height = "600">
 
 ## Retrofit: Rest API
+<img src= "demo/retrofit_flow.gif" width = "300" height = "600">
+
+## Callback Based APIs: Firebase Firestore
+<img src= "demo/firebase_callbackflow.gif" width = "300" height = "600">
 
 # Libraries
 * [Android Jetpack](https://developer.android.com/jetpack)
