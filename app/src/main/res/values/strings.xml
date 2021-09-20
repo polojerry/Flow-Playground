@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Flow Playground</string>
+    <string name="games">Games</string>
+    <string name="friends_database_name">friends_database</string>
+    <string name="clear">Clear</string>
+    <string name="friends">Friends</string>
+    <string name="save">Save</string>
+    <string name="name">Friends Name</string>
+    <string name="movies">Movies</string>
 </resources>
